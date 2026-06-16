@@ -37,6 +37,7 @@ export interface RegistrationData {
     plateNumber: string;
     registrationCertificate: string;
     carImage: string;
+    vehicleLicense?: string;
     category?: string;
   };
 

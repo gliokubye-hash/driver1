@@ -110,7 +110,7 @@ export default function VehicleInformation() {
   const [filteredModels, setFilteredModels] = useState<string[]>([]);
   const [plateError, setPlateError] = useState('');
 
-  const getInstructionContent = (type: ImageType) => {
+  const getInstructionContent = (type: ImageType): { title: string; instructions: string[]; optional?: boolean } => {
     switch (type) {
       case 'vehiclePicture':
         return {

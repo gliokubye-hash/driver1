@@ -80,7 +80,6 @@ export async function updateDriverData(
       if (data.vehicle.plateNumber) updateData['vehicle.plateNumber'] = data.vehicle.plateNumber;
       if (data.vehicle.registrationCertificate) updateData['vehicle.registrationCertificate'] = data.vehicle.registrationCertificate;
       if (data.vehicle.carImage) updateData['vehicle.carImage'] = data.vehicle.carImage;
-      if (data.vehicle.vehicleLicense) updateData['vehicle.vehicleLicense'] = data.vehicle.vehicleLicense;
     }
 
     if (data.operation) {

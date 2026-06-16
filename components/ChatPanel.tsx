@@ -175,7 +175,7 @@ export default function ChatPanel({
               onChangeText={setInputText}
               multiline
               maxLength={500}
-              editable={canSendMessages}
+              editable={!!canSendMessages}
             />
             <TouchableOpacity
               onPress={handleSend}
